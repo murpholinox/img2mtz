@@ -1,6 +1,8 @@
 #!/bin/bash
 # 
-# Desde `*.img` hasta el `*.mtz`.
+# Este script es muy sencillo porque se sabe previamente el grupo
+# espacial y no se intenta realizar un corte de los datos. 
+# En teoría sirve para procesar los patrones de difracción en formato`*.img`y genera .mtz`final
 # 1) Genera XDS.INP y corre xds_par
 # 2) Optimiza de acuerdo a http://strucbio.biologie.uni-konstanz.de/xdswiki/index.php/Optimisation
 # 3) Guarda el ISa para compararlo con el viejo.
